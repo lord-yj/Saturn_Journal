@@ -1,0 +1,13 @@
+_build/
+_opam/
+_coverage/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.pdf
+glx
+*.o
+*.cmi
+*.cmx

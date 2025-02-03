@@ -1,0 +1,31 @@
+---
+# Members of your group.
+group:
+  - name: Griffin Carter
+    netid: gfc46
+  - name: Ilya Strugatskiy
+    netid: is368
+  - name: Davey Seeman
+    netid: djs467
+  - name: Sergio Lopez
+    netid: sal292
+  - name: Yafet Negash
+    netid: yjn2
+# Your PM.
+pm:
+  name: Ankit Lakkapragada
+  netid: asl256
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "Saturn Journal"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/gfc46/saturn_journal"
+# Replace the URL with your own demo video.
+demo-video-url: "https://youtu.be/IwKX_FT_i8M"
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a web-based notebook tool, where the user can edit a GLX file, save it, and see a version of it appear in a browser. 
+  GLX (great latex) is a document format similar to latex defined in the file parsing_rules.pdf (https://drive.google.com/file/d/1dooamjNIzEGaDPlFDUTjCReFv4TfCdkw/view?usp=sharing). 
+  GLX documents can support various blocks of text, mathmatical equations, and code segments, which our project will convert into a finalized HTML/CSS/JS output.
+  The interface is designed to allow for new parsing logic to be defined as more commands become supported by GLX files.

@@ -1,0 +1,212 @@
+commit cac352f6caa871bf9c68a8de2e2035c902073ece
+Author: Griffin <gfc46@cornell.edu>
+Date:   Wed Oct 30 23:00:46 2024 -0400
+
+    Final touches
+    
+    -Edited INSTALL.md, README.txt, and AUTHORS.md to have accurate information about the project
+    -Various bug fixes in the code
+
+commit 22f3e0d36dbbb181d9f7239d5739470ad594c2bc
+Author: Griffin <gfc46@cornell.edu>
+Date:   Wed Oct 30 22:00:48 2024 -0400
+
+    Final touches on the program
+    
+    -Fix the python kernel
+    -Fix the updater so that python code will display
+
+commit 353422b053ce64c241d0c6990c9633bb1df1d224
+Author: Griffin <gfc46@cornell.edu>
+Date:   Wed Oct 30 21:24:36 2024 -0400
+
+    Finished writing code to show document
+    
+    -Implemented initializer to open the html output to a localhost
+    -Converted the ast tree to a description fragment list to stylize
+
+commit 427e7836e31a89fcfb6dd82b629fec4b62595945
+Author: yjn2 <18153+yjn2@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Oct 30 19:59:20 2024 -0400
+
+    Update python3_kernel.ml
+
+commit af26271c4756cc8121b61047708c0a468f0beb21
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 18:02:01 2024 -0400
+
+    Update parser.ml
+
+commit 5d1da7471d6d8132496e8a00b4af61b7e455a2a7
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 18:01:26 2024 -0400
+
+    Update preamble.ml
+
+commit a26ad60a0c6d0a0456eb769274f3f251f51e68e5
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 17:59:53 2024 -0400
+
+    Update parser.ml
+
+commit 964866136c20dfe3ca8a7e2bf34f9f3c23da4279
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 17:47:53 2024 -0400
+
+    Update ast.ml
+    
+    - Created astNode type
+
+commit c2f866b72481da483f84aa3ccd79e6b0b7fc6874
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 16:30:54 2024 -0400
+
+    Update lexer.ml
+
+commit a7c8dcc64a2a75be7a89d63d546c19bdd26b9e3e
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 16:20:09 2024 -0400
+
+    Update lexer.ml
+    
+    - Added documentation
+
+commit 9a780d32036d05c20d2b780548b5c9b4717f5752
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 16:11:04 2024 -0400
+
+    Delete lexer.ml
+    
+    - Lexer.ml was moved inside of parser folder
+
+commit 55108f0c737697b955b71ba2411d53b9362855ac
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 16:10:19 2024 -0400
+
+    Moved lexer.ml
+
+commit dc8ef053b5d26b38f58caded08dfd6b380b2aada
+Author: Sergio Lopez <sal292@cornell.edu>
+Date:   Wed Oct 30 16:08:42 2024 -0400
+
+    Update lexer.ml
+    
+    - Added missing tokens.
+    - Refined regular expressions.
+
+commit e18cf554e2d8e938c8b419c0d0d14f132e8b6df6
+Author: Davey Seeman <djs467@cornell.edu>
+Date:   Wed Oct 30 06:41:40 2024 -0400
+
+    Implement parse_description
+    
+    - parse_description generates a list of description_fragments given their corresponding tokens
+    - documented this function
+
+commit 2451f04f108a4fd65b15b3dabd94f4dac6744881
+Author: Davey Seeman <djs467@cornell.edu>
+Date:   Wed Oct 30 06:09:15 2024 -0400
+
+    Implement parse_codeblock
+    
+    - Implemented parsing logic for parse_codeblock
+    - Modfied command regex in lexer.ml to stop whenever a '}' character is encountered
+    - Documented these changes
+
+commit 51ad6a7e7896284a277720199f309147ba597aaa
+Author: Ilya Strugatskiy <is368@cornell.edu>
+Date:   Wed Oct 30 03:09:16 2024 -0400
+
+    wrote barebones non-math styler
+
+commit 28cd230e46a29456fe9e239bf761d551571e0e7b
+Author: Ilya Strugatskiy <is368@cornell.edu>
+Date:   Wed Oct 30 03:08:42 2024 -0400
+
+    added barebones styler with no math yet.
+
+commit 194c1f3f5563d66f880197139db2eb822b1b9765
+Author: Griffin <gfc46@cornell.edu>
+Date:   Tue Oct 29 14:14:06 2024 -0400
+
+    Added Important Documentation files
+    
+    -Created INSTALL.md, outlineing how to install and use our project
+    -Created GLX.yml, the YAML file for the gallery entry
+
+commit ab942d74a4e68ba2d5b99236b97e612a9c9ba513
+Author: Griffin <gfc46@cornell.edu>
+Date:   Mon Oct 28 21:28:24 2024 -0400
+
+    Implemented CLI functions
+    
+    -Added help command to learn about all commands
+    -Wrote create and open commands to interact with file
+    -Wrote watch function to check for changes in the file
+    -Implemented basic update function stub
+
+commit e9e5d3cd03e98225aec7d8e116b63891b3055ea5
+Author: Griffin <gfc46@cornell.edu>
+Date:   Mon Oct 28 15:09:40 2024 -0400
+
+    Initial CLI creation
+    
+    -Created a simple CLI for working with GLX files
+    -Created Stub functions for operations done on GLX files
+
+commit f3db08353b4dc78f871014456115d15865de072c
+Author: Sergio <sal292@cornell.edu>
+Date:   Mon Oct 28 11:51:56 2024 -0400
+
+    Initial parsing functions
+
+commit 873b4318bf0fcfca79aaeb39d18aa30d47eaa541
+Author: Ilya Strugatskiy <is368@cornell.edu>
+Date:   Sun Oct 27 14:35:50 2024 -0400
+
+    major setup work so other people can start working
+
+commit 69afe6d64f9776efce77d1d5dd1eff7a3be4d836
+Author: Ilya Strugatskiy <is368@cornell.edu>
+Date:   Sun Oct 27 13:09:59 2024 -0400
+
+    Added the core GLX docs.
+    
+    - Added GLX docs in Latex.
+    - Updated gitignore to remove latex compile artifacts.
+
+commit b232c05dc5b5b6bc9c3e745f1bd169c5408918e3
+Author: yjn2 <18153+yjn2@users.noreply.github.coecis.cornell.edu>
+Date:   Wed Oct 9 22:03:02 2024 -0400
+
+    Update README.txt
+
+commit 344fba910da2cbb131d10dbb7ebb8bbdcd56bf15
+Author: Sergio <sal292@cornell.edu>
+Date:   Tue Oct 8 18:14:56 2024 -0400
+
+    Added name
+
+commit ae92a911f729b9b085373fc7cddd5c95fec05790
+Author: djs467 <18134+djs467@users.noreply.github.coecis.cornell.edu>
+Date:   Tue Oct 8 18:11:56 2024 -0400
+
+    Update README.txt
+
+commit 9ae46b0253ac8d87ce103864290a02ab31d5b14f
+Author: is368 <is368@cornell.edu>
+Date:   Tue Oct 8 18:09:16 2024 -0400
+
+    Added netid to readme
+
+commit 8e8e686cb65b1590744955e6f9f612695762254d
+Author: Griffin <gfc46@cornell.edu>
+Date:   Tue Oct 8 18:06:44 2024 -0400
+
+    Griffin Carter Commit
+
+commit 33a211e9fd68249e6902bd1995891da1c9cda0d1
+Author: Griffin <gfc46@cornell.edu>
+Date:   Tue Oct 8 18:05:03 2024 -0400
+
+    Initial Commit
